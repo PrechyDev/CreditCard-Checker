@@ -15,7 +15,7 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     max-width: 500px;
-    min-width: 400px;
+    min-width: 300px;
     min-height: 40vh;
     border-radius: 20px;
     padding: 1rem;
