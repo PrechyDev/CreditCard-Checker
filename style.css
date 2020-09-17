@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    background-color: #b59bdf
+}
+/* calculator body styling */
+.container {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 400px;
+    min-height: 40vh;
+    border-radius: 20px;
+    padding: 1rem;
+    background: linear-gradient(to right, #9d50bb, #6e48aa);
+    border: none;
+}
+.header {
+    margin: 1rem 0.4rem;
+    width: auto;
+}
+h1  {
+    text-align: center;
+}
+hr {
+    margin-bottom: 1rem;
+}
+input {
+    width: 100%;
+    outline: none;
+    border-bottom: 1px solid black;
+    padding: 0.5rem;
+    font-size: 1.2rem
+}
+button {
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+    font-size: 1.2rem;
+}
+h4 {
+    text-align: center;
+    margin: 1rem auto;
+}

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Card Validator </title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Credit Card Validator</h1>
+            <hr>
+        </header>
+        
+        <main>
+            <input type="text" onfocus="this.value=''" name="credit card" id="input" placeholder="Enter a credit card number...">
+
+            <button onclick="validateCred()">Validate Card</button>
+            <h4 id="result"></h4>
+        </main>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
