@@ -7,6 +7,9 @@
 body {
     background-color: #b59bdf
 }
+
+
+
 /* calculator body styling */
 .container {
     margin: 0;
@@ -15,7 +18,6 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     max-width: 500px;
-    min-width: 300px;
     min-height: 40vh;
     border-radius: 20px;
     padding: 1rem;
@@ -47,4 +49,38 @@ button {
 h4 {
     text-align: center;
     margin: 1rem auto;
+}
+
+
+
+@media only screen and (max-width: 600px){
+.container {
+    width: 80vw;
+}
+}
+
+
+/*my overrides*/
+
+.container {
+    background: white;
+    box-shadow: 2px 3px 11px 1px black
+}
+
+.validateButton{
+    color: white;
+    border-radius: 15px;
+    border-width: 0px;
+    background-color: skyblue;
+    width: 100%;
+    transition: 0.5s;
+}
+
+.textField{
+    border-radius: 15px;
+    border: 1px solid black;
+}
+
+.validateButton:hover{
+    background-color: lightgreen;
 }
