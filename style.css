@@ -15,7 +15,6 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     max-width: 500px;
-    min-width: 300px;
     min-height: 40vh;
     border-radius: 20px;
     padding: 1rem;
@@ -47,4 +46,10 @@ button {
 h4 {
     text-align: center;
     margin: 1rem auto;
+}
+
+@media only screen and (max-width: 600px){
+.container {
+    width: 80vw;
+}
 }
