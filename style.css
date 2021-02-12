@@ -135,8 +135,8 @@ h1{
 
     body{
         background: var(--bg);
-        background-size: cover;
-      
+        background-size: auto;
+        background-postion: center;
        
     }
 
