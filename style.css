@@ -1,3 +1,10 @@
+:root{
+    --bg: url("https://user-images.githubusercontent.com/70331030/107830721-c3a2af80-6d8c-11eb-917a-ffe2577c9426.jpg")
+
+}
+
+
+
 *{
     margin: 0;
     padding: 0;
@@ -63,7 +70,7 @@ h4 {
 /*jesulonimii overrides*/
 
 body{
-    background: url("images/bg.jpg");
+    background: var(--bg);
     background-size: cover;
 }
 
@@ -127,7 +134,7 @@ h1{
     }
 
     body{
-        background: url("images/bg.jpg");
+        background: var(--bg);
         background-position: center;
        
     }
