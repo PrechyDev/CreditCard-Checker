@@ -62,25 +62,52 @@ h4 {
 
 /*jesulonimii overrides*/
 
+body{
+    background: url("images/bg.jpg");
+    background-size: cover;
+}
+
 .container {
-    background: white;
-    box-shadow: 2px 3px 11px 1px black
+    background: rgba(255,255,255,0.4);
+    border: 0.5px solid white;
+    backdrop-filter: blur(3px);
 }
 
 .validateButton{
     color: white;
     border-radius: 15px;
     border-width: 0px;
-    background-color: skyblue;
+    background-color: #3578BC;
     width: 100%;
-    transition: 0.5s;
+    transition: 0.25s;
 }
 
 .textField{
+    margin-top: 20px;
     border-radius: 15px;
-    border: 1px solid black;
+    border: 2px solid black;
+    transition: 0.25s;
 }
 
 .validateButton:hover{
-    background-color: lightgreen;
+    background-color: #35BC6E;
+}
+
+.textField:focus{
+    border-color: #3578BC;
+}
+
+
+@media only screen and (max-width: 900px){
+
+    .container {
+        width: 70vw;
+    }
+
+    body{
+        background: url("images/bg.jpg");
+        background-position: center;
+       
+    }
+
 }
