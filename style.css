@@ -67,6 +67,10 @@ body{
     background-size: cover;
 }
 
+h1{
+    color: #262626;
+}
+
 .container {
     background: rgba(255,255,255,0.4);
     border: 0.5px solid white;
