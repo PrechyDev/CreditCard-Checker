@@ -1,12 +1,22 @@
+:root{
+    --bg: url("https://user-images.githubusercontent.com/70331030/107830721-c3a2af80-6d8c-11eb-917a-ffe2577c9426.jpg")
+
+}
+
+
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Open sans, Helvetica, sans-serif;
 }
 body {
     background-color: #b59bdf
 }
+
+
+
 /* calculator body styling */
 .container {
     margin: 0;
@@ -48,8 +58,95 @@ h4 {
     margin: 1rem auto;
 }
 
+
 @media only screen and (max-width: 600px){
 .container {
     width: 80vw;
 }
 }
+
+
+
+/*jesulonimii overrides*/
+
+body{
+    background: var(--bg);
+    background-size: cover;
+}
+
+h1{
+    color: #262626;
+}
+
+.container {
+    background: rgba(255,255,255,0.4);
+    border: 0.5px solid white;
+    backdrop-filter: blur(3px);
+}
+
+.validateButton{
+    color: white;
+    border-radius: 15px;
+    border-width: 0px;
+    border: 0px;
+    background-color: #3578BC;
+    width: 100%;
+    outline: none;
+    transition: 0.25s;
+}
+
+.textField{
+    margin-top: 20px;
+    outline: none;
+    border-radius: 15px;
+    border: 3px solid white;
+    transition: 0.25s;
+}
+
+.validateButton:hover{
+    background-color: #35BC6E;
+
+}
+
+.textField:focus{
+
+    border: 3px solid #3578BC;
+}
+
+.result{
+    color: black;
+    border-radius: 15px;
+    padding: 10px; 
+    border: 2px solid red;
+    display: none;
+}
+
+.closeBtn{
+   
+    color: black;
+
+}
+
+@media only screen and (max-width: 900px){
+
+    .container {
+        width: 70vw;
+    }
+
+    body{
+        background: var(--bg);
+        background-size: auto;
+        background-postion: center;
+       
+    }
+
+
+@media only screen and (max-width: 600px){
+   .container {
+       width: 90vw;
+   }
+}
+
+
+}
+

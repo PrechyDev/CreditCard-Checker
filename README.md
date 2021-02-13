@@ -12,7 +12,7 @@ You can test the app using your credit card or generating fake credit cards.
 
 ## Tools used
 
-- **Visual Studio Code**
+- **Sublime text 3**
 - **HTML**
 - **CSS**
 - **JavaScript**
@@ -20,11 +20,7 @@ You can test the app using your credit card or generating fake credit cards.
 
 ## Deployment
 
-The web app was deployed using  **[Netlify](netlify.com)** and can be accessed on **https://creditcardchecker.netlify.app/**
-
-## Design
-
-I don't know much design but I used [**uigradients**](uigradients.com) to generate the gradient I used in the container then selected a lighter shade of it for the body. 
+The web app was deployed using  **[Netlify](netlify.com)** and can be accessed on **https://jesulonimiicardvalidator.netlify.app/**
 
 ## Contributing
 

@@ -2,7 +2,20 @@
 function validateCred() {
     let input = document.getElementById('input').value;
     let result = document.getElementById('result');
-    if(!isNaN(input)) {
+
+
+
+
+    if (input == "") {
+      result.style.display= 'block'
+      result.style.background= '#E63939'
+      result.style.borderColor= 'red'
+      result.style.color= 'white'
+      result.innerHTML = 'This field cannot be empty'
+    } 
+    else{
+
+if(!isNaN(input)) {
       //converts the input to an array of numbers
       const cred = Array.from(input.split(''), Number)
       //copy the array and reverse its order
@@ -21,14 +34,31 @@ function validateCred() {
         //sums up all numbers in the array
         sum += x[i];
       }
+
+
+
+
       if (sum%10==0) {
+        result.style.display= 'block'
+        result.style.background= 'rgba(53,188,110,1)'
+        result.style.borderColor= 'rgba(53,188,110,1)'
+        result.style.color= 'white'
         result.innerHTML = 'This card is valid'
       } else {
+        result.style.display= 'block'
+        result.style.background= '#E63939'
+        result.style.color= 'white'
+        result.style.borderColor= 'red'
         result.innerHTML = 'This card is invalid'
       }
       return true
-    } else {
+    } 
+
+
+    else {
       alert('Enter a valid number')
       return false
+    }
+
     }
 }
